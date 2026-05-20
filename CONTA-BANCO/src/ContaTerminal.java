@@ -21,8 +21,8 @@ public class ContaTerminal {
                 saldo = Double.parseDouble(strSaldo);
                 System.out.print("Olá " + nomeCliente + ", ");
                 System.out.print("obrigado por criar uma conta em nosso banco, ");
-                System.out.print("sua agência é "+ agencia +", conta " + numero + " ");
-                System.out.print("e seu saldo "+ saldo +" já está disponível para saque.");
+                System.out.print("sua agência é " + agencia + ", conta " + numero + " ");
+                System.out.print("e seu saldo " + saldo + " já está disponível para saque.");
             } catch (NumberFormatException e) {
                 System.out.println("Erro: " + e.getMessage());
             }
