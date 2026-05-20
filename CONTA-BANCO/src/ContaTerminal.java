@@ -5,7 +5,6 @@ public class ContaTerminal {
     private static String agencia;
     private static String nomeCliente;
     private static double  saldo;
-
     public static void main(String[] args) throws Exception {
         try (Scanner sc = new Scanner(System.in)) {
             String strSaldo;
@@ -29,5 +28,4 @@ public class ContaTerminal {
             sc.close();
         }
     }
-
 }
